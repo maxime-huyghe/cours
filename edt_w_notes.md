@@ -3,7 +3,7 @@ https://etu.utt.fr/user/huyghema/schedule
 |Heure| Lundi            | Mardi           | Mercredi       | Jeudi               |
 |-----|------------------|-----------------|----------------|---------------------|
 |8h   |                  | LO02 TP - P203  | IF14 TD - S203 |                     |
-|9h   |                  | Seulement sem A | IF14 TD - S203 |                     |
+|9h   |                  | Seulement sem A | Prés sem A     |                     |
 |10h  | LO02 TD - P204   |                 |                | IF37 CM - ????      |
 |11h  | Présentiel sem A |                 |                | IF37 CM - ????      |
 |12h  |                  |                 |                |                     |
