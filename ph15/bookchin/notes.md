@@ -73,7 +73,32 @@ accessoires)
 
 croisement d'espèce végétales (résistance aux insectes, maladies) = autre
 exemple de technologie qui ne peut être qu'un progrès car permet de cultiver
-dans des endroits incultivables *il se contredit pas un peu du coup ?*
+dans des endroits incultivables *il se contredit pas un peu du coup ? dans le
+sens où on force la nature ? en fait pas vraiment car toutes les technos
+modernes "forcent" la nature d'une façon où d'une autre*
+
+démographie et production industrielle d'une communauté seront limitées
+*société planifiée à petite échelle* => la communauté reste en harmonie avec
+la région qu'elle occupe
+
+**production industrielle diversifiée**
+*pour éviter une dépendance trop grande aux échanges inter-communauté qui 
+mennerait sans doute à une certaine centralisation*
+
+on n'installe les cultures qu'aux endroits qui leur conviennent le mieux =>
+on rejoint l'idée de vivre en harmonie avec l'environnement
+
+**frontières sociales, culturelles, biologiques définies par la région
+occupée**
+
+activité manuelles moins pénibles et **écologie** =>
+**deviennent intellectuelles, scientifiques, et esthétiques**
+
+apparition d'un **animisme** ? (comme base du respect de la nature)
+
+Résumé : se rapprocher de la nature
+
+- kkkkkkkkkk
 
 # Une technologie au service de la vie p20
 
