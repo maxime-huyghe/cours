@@ -1,0 +1,3 @@
+| Identifiant | Titre | Acteur | Contexte d’utilisation | Motivation | Précondition(s) | Postcondition(s) | Déclencheur | Scénario principal | Scénario alternatif(s) | Remarque(s) |
+|-------------+-------+--------+------------------------+------------+-----------------+------------------+-------------+--------------------+------------------------+-------------|
+| SPEC 1      | Consulter les informations relatives à l'évènement. | Utilisateurs | Consultation n'importe quand | Donne de la visibilité à l'evt | | Utilisateur informé | | L'utilisateur visite le site de lui-même | L'utilisateur arrive d'une recherche google | |

@@ -1,0 +1,32 @@
+FDFF = *access-or-group-block access-block *access-or-group-block
+
+access-or-group-block = access-block / group-block
+
+access-block =
+    "#ACCESS:" name crlf
+    1*access-rule
+    "#" crlf
+
+access-rule = normal-access-rule / if-rule
+
+normal-access-rule = ("+" / "*") name ":" time-range crlf
+
+time-range = (">>" time) / (time ">>") / (time ">>" time)
+
+if-rule = "IF " condition crlf inner-if-rule "ENDIF" crlf
+
+condition = user-condition / time-condition
+
+user-condition = "%USER% = " name
+
+time-condition = "%TIME% > " TODO
+
+inner-if-rule = ("CLOSE" crlf) / if-rule
+
+group-block =
+    "#GROUP:" name crlf
+    1*(name crlf)
+    "#" crlf
+
+name = 1*(alpha / digit)
+

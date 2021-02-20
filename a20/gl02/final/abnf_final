@@ -1,0 +1,35 @@
+3DPS =
+    "START" crlf
+    1*stmt
+    ; Is the ending crlf needed ?
+    "END" [crlf]
+
+stmt =
+    comment /
+    normal-stmt /
+    flow-stmt /
+    repeat-block
+
+comment = "#" *char crlf
+
+flow-stmt = (("OPEN" ["(" 1*alpha ")"]) / "CLOSE") crlf
+
+normal-stmt = origin-stmt / mv-stmt / wait-stmt
+
+origin-stmt = "ORIGIN" crlf
+
+; Not checking axis order
+mv-stmt = "MV:" mv-axis *2(" " mv-axis) crlf
+
+mv-axis = ("X" / "Y" / "Z") ":" float
+
+float = ["-"] ((digit "." [digit]) / ("." digit))
+
+wait-stmt = "WAIT:" 1*digit crlf
+
+repeat-block =
+    "REPEAT:" 1*digit crlf
+    ; not allowing flow-stmt
+    1*normal-stmt
+    "ENDREPEAT" crlf
+

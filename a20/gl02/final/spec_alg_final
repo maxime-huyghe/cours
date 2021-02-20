@@ -1,0 +1,47 @@
+a)
+
+Exoplanet :
+
+Sort : ExoP
+References : Int, Jupiter
+
+Signature :
+Create : Int x Jupiter -> ExoP
+LightYears : ExoP -> Int
+Jupiter : ExoP -> Jupiter
+
+Exoplanets Catalog :
+
+References : Float, ExoP
+
+Signature :
+Append : exoCat x ExoP -> exoCat
+
+b)
+
+Exoplanet :
+
+LightYears(Create(ly, mass)) = ly
+
+Jupiter(Create(ly, mass)) = mass
+
+Exoplanets Catalog :
+
+Count(Append(ec, ep)) = 1 + Count(ec)
+
+SearchBetweenPlanetMass(Append(ec, ep), minJ, maxJ) =
+    if Jupiter(ep) > minJ AND Jupiter(ep) < maxJ
+    then Append(SearchBetweenPlanetMass(ec, minJ, maxJ), ep)
+    else SearchBetweenPlanetMass(ec, minJ, maxJ)
+    
+c)
+
+Pour cette démonstration, SBPM == SearchBetweenPlanetMass.
+
+SBPM([p1_m15.5, p2_m48.0, p3_m24.3], 18.9, 60.5)
+    = Append(SBPM([p1_m15.5, p2_m48.0], 18.9, 60.5), p3_m24.3) car 24.3 est entre minJ et maxJ
+    = Append(Append(SBPM([p1_m15.5], 18.9, 60.5), p2_m48.0), p3_m24.3) car 48.0 est entre minJ et maxJ
+    = Append(Append(SBPM([], 18.9, 60.5), p2_m48.0), p3_m24.3) car 15.5 < minJ
+    = Append(Append([], p2_m48.0), p3_m24.3)
+    = [p2_m48.0, p3_m24.3] on a bien gardé les planètes entre minJ et maxJ
+

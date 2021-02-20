@@ -1,0 +1,2 @@
+hello.txt n'a pas encore été supprimé du dépôt, mais le sera au prochain commit. On peut utiliser svn revert pour le restaurer.
+

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="yo">Yo!</string>
+    <string name="nope">Nope!</string>
+    <string name="texte">Texte</string>
+    <string name="image">Image</string>
+    <string name="feedback">Feedback</string>
+    <string name="lorem">Lorem ipsum dolor sit amet</string>
+    <string name="logo_utt">logo UTT</string>
+</resources>
