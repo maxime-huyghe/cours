@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="eg23 tp02" version="4">
+  <OBJECT>
+    <ID name="eg23 tp02" mc="Standard.Package" uid="002ecac6-48d4-4b1d-80e3-fdbe13247136"/>
+    <PID name="EG23 TP02" mc="Standard.Project" uid="4fa135d8-eeb5-4a0d-96f7-5457551336db"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[eg23 tp02]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="0309fdb7-2a2f-4d79-bd36-7f95bf79a230"/>
+        <COMPID name="Activity1" mc="Standard.Activity" uid="4a2dfe2c-8275-477f-86a6-309187100a38"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

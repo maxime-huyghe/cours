@@ -1,0 +1,64 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TForm1','FORMDATA',[
+  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3'1'#1#6'Height'#3#216#1#3'Top'#3#155#0#5'W'
+  +'idth'#3'|'#3#7'Caption'#6#7'Post-it'#12'ClientHeight'#3#196#1#11'ClientWidt'
+  +'h'#3'|'#3#5'Color'#7#8'clYellow'#4'Menu'#7#9'MainMenu1'#10'LCLVersion'#6#7
+  +'1.6.2.0'#0#5'TMemo'#5'Memo1'#4'Left'#3#176#0#6'Height'#3'"'#1#3'Top'#2'P'#5
+  +'Width'#3#170#1#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#5'clRed'
+  +#11'Font.Height'#2#237#9'Font.Name'#6#21'Arial Rounded MT Bold'#10'Font.Pitc'
+  +'h'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#8'OnChange'#7#11'Memo1Cha'
+  +'nge'#10'ParentFont'#8#9'PopupMenu'#7#10'PopupMenu1'#10'ScrollBars'#7#10'ssV'
+  +'ertical'#8'TabOrder'#2#0#0#0#7'TButton'#7'Button1'#4'Left'#2'+'#6'Height'#2
+  +#25#3'Top'#2'&'#5'Width'#2'K'#7'Caption'#6#7'&Fermer'#7'OnClick'#7#12'Button'
+  +'1Click'#8'TabOrder'#2#1#0#0#7'TButton'#7'Button2'#4'Left'#2'+'#6'Height'#2
+  +#25#3'Top'#2'H'#5'Width'#2'K'#7'Caption'#6#4'Vert'#7'OnClick'#7#12'Button2Cl'
+  +'ick'#8'TabOrder'#2#2#0#0#7'TButton'#7'Button3'#4'Left'#2'+'#6'Height'#2#25#3
+  +'Top'#2'p'#5'Width'#2'K'#7'Caption'#6#6'Violet'#7'OnClick'#7#12'Button3Click'
+  +#8'TabOrder'#2#3#0#0#7'TButton'#7'Button4'#4'Left'#2'+'#6'Height'#2#25#3'Top'
+  +#3#152#0#5'Width'#2'K'#7'Caption'#6#5'Size-'#7'OnClick'#7#12'Button4Click'#8
+  +'TabOrder'#2#4#0#0#7'TButton'#7'Button5'#4'Left'#2'+'#6'Height'#2#25#3'Top'#3
+  +#192#0#5'Width'#2'K'#7'Caption'#6#5'size+'#7'OnClick'#7#12'Button5Click'#8'T'
+  +'abOrder'#2#5#0#0#9'TComboBox'#9'ComboBox1'#4'Left'#2'('#6'Height'#2#20#3'To'
+  +'p'#3#237#0#5'Width'#2'd'#10'ItemHeight'#2#12#13'Items.Strings'#1#6#5'rouge'
+  +#6#4'bleu'#0#8'OnChange'#7#15'ComboBox1Change'#8'TabOrder'#2#6#4'Text'#6#24
+  +'Choisissez votre couleur'#0#0#7'TButton'#7'Button6'#4'Left'#2'3'#6'Height'#2
+  +#25#3'Top'#3#27#1#5'Width'#2'K'#7'Caption'#6#10'Verouillez'#7'OnClick'#7#12
+  +'Button6Click'#8'TabOrder'#2#7#0#0#11'TRadioGroup'#11'RadioGroup1'#4'Left'#3
+  +#159#2#6'Height'#2'i'#3'Top'#2'G'#5'Width'#3#185#0#8'AutoFill'#9#7'Caption'#6
+  +#11'RadioGroup1'#28'ChildSizing.LeftRightSpacing'#2#6#29'ChildSizing.Enlarge'
+  +'Horizontal'#7#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVertical'#7
+  +#24'crsHomogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScale'
+  +'Childs'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.'
+  +'Layout'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'
+  +#2#1#12'ClientHeight'#2'X'#11'ClientWidth'#3#181#0#9'ItemIndex'#2#1#13'Items'
+  +'.Strings'#1#6#10'verouillez'#6#12'deverouillez'#0#7'OnClick'#7#16'RadioGrou'
+  +'p1Click'#8'TabOrder'#2#8#0#0#11'TRadioGroup'#11'RadioGroup2'#4'Left'#3#159#2
+  +#6'Height'#2'i'#3'Top'#3#230#0#5'Width'#3#185#0#8'AutoFill'#9#7'Caption'#6#11
+  +'RadioGroup2'#28'ChildSizing.LeftRightSpacing'#2#6#29'ChildSizing.EnlargeHor'
+  +'izontal'#7#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVertical'#7#24
+  +'crsHomogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChi'
+  +'lds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Lay'
+  +'out'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#1
+  +#12'ClientHeight'#2'X'#11'ClientWidth'#3#181#0#9'ItemIndex'#2#0#13'Items.Str'
+  +'ings'#1#6#9'ascenseur'#6#13'non-ascenseur'#0#7'OnClick'#7#16'RadioGroup2Cli'
+  +'ck'#8'TabOrder'#2#9#0#0#7'TButton'#7'Button7'#4'Left'#2'@'#6'Height'#2#25#3
+  +'Top'#3'P'#1#5'Width'#2'K'#7'Caption'#6#7'Button7'#7'OnClick'#7#12'Button7Cl'
+  +'ick'#8'TabOrder'#2#10#0#0#9'TMainMenu'#9'MainMenu1'#4'left'#3#167#0#3'top'#2
+  +#18#0#9'TMenuItem'#9'MenuItem1'#7'Caption'#6#8'&Fichier'#0#9'TMenuItem'#9'Me'
+  +'nuItem2'#7'Caption'#6#11'&Enregister'#7'OnClick'#7#14'MenuItem2Click'#0#0#9
+  +'TMenuItem'#9'MenuItem3'#7'Caption'#6#7'&Ouvrir'#7'OnClick'#7#14'MenuItem3Cl'
+  +'ick'#0#0#9'TMenuItem'#9'MenuItem4'#7'Caption'#6#7'&Fermer'#7'OnClick'#7#14
+  +'MenuItem4Click'#0#0#0#9'TMenuItem'#9'MenuItem5'#7'Caption'#6#5'&Aide'#0#0#0
+  +#11'TOpenDialog'#11'OpenDialog1'#4'left'#3#7#1#3'top'#2#12#0#0#11'TSaveDialo'
+  +'g'#11'SaveDialog1'#4'left'#3'H'#1#3'top'#2#16#0#0#10'TPopupMenu'#10'PopupMe'
+  +'nu1'#4'left'#3#178#1#3'top'#2#24#0#9'TMenuItem'#9'MenuItem6'#7'Caption'#6#10
+  +'enregister'#0#0#0#12'TColorDialog'#12'ColorDialog1'#5'Color'#7#7'clBlack'#20
+  +'CustomColors.Strings'#1#6#13'ColorA=000000'#6#13'ColorB=000080'#6#13'ColorC'
+  +'=008000'#6#13'ColorD=008080'#6#13'ColorE=800000'#6#13'ColorF=800080'#6#13'C'
+  +'olorG=808000'#6#13'ColorH=808080'#6#13'ColorI=C0C0C0'#6#13'ColorJ=0000FF'#6
+  +#13'ColorK=00FF00'#6#13'ColorL=00FFFF'#6#13'ColorM=FF0000'#6#13'ColorN=FF00F'
+  +'F'#6#13'ColorO=FFFF00'#6#13'ColorP=FFFFFF'#6#13'ColorQ=C0DCC0'#6#13'ColorR='
+  +'F0CAA6'#6#13'ColorS=F0FBFF'#6#13'ColorT=A4A0A0'#0#4'left'#3#254#1#3'top'#2
+  +'"'#0#0#0
+]);

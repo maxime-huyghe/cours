@@ -1,0 +1,18 @@
+object Form2: TForm2
+  Left = 3065
+  Height = 105
+  Top = 305
+  Width = 386
+  Caption = 'Form2'
+  ClientHeight = 105
+  ClientWidth = 386
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 8
+    Height = 76
+    Top = 8
+    Width = 364
+    Caption = 'Post-it v0.1, 2021-03-15'#10#10'Basé sur la correction du TP1,'#10'fonctionnalités supplémentaires par Maxime Huyghe'
+    ParentColor = False
+  end
+end

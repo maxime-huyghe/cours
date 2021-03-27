@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EG23 TP02" version="4">
+  <OBJECT>
+    <ID name="EG23 TP02" mc="Infrastructure.DiagramSet" uid="adc77aef-8072-4038-bc77-92fb4843c035"/>
+    <PID name="EG23 TP02" mc="Standard.Project" uid="4fa135d8-eeb5-4a0d-96f7-5457551336db"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[EG23 TP02]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
