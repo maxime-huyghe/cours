@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{p}{[}\PYG{l+s+sAtom}{trace}\PYG{p}{]}  \PYG{l+s+sAtom}{?\PYGZhy{}} \PYG{n+nf}{inc}\PYG{p}{([}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{],} \PYG{n+nv}{R}\PYG{p}{).}
+   \PYG{n+nv}{Call}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{8}\PYG{p}{)} \PYG{n+nf}{inc}\PYG{p}{([}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{],} \PYG{k}{\PYGZus{}}\PYG{l+m+mi}{4404}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Call}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{9}\PYG{p}{)} \PYG{k}{\PYGZus{}}\PYG{l+m+mi}{4636} \PYG{o}{is} \PYG{l+m+mi}{1}\PYG{o}{+}\PYG{l+m+mi}{1} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Exit}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{9}\PYG{p}{)} \PYG{l+m+mi}{2} \PYG{o}{is} \PYG{l+m+mi}{1}\PYG{o}{+}\PYG{l+m+mi}{1} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Call}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{9}\PYG{p}{)} \PYG{n+nf}{inc}\PYG{p}{([}\PYG{l+m+mi}{2}\PYG{p}{],} \PYG{k}{\PYGZus{}}\PYG{l+m+mi}{4638}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Call}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{)} \PYG{k}{\PYGZus{}}\PYG{l+m+mi}{4648} \PYG{o}{is} \PYG{l+m+mi}{2}\PYG{o}{+}\PYG{l+m+mi}{1} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Exit}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{)} \PYG{l+m+mi}{3} \PYG{o}{is} \PYG{l+m+mi}{2}\PYG{o}{+}\PYG{l+m+mi}{1} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Exit}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{9}\PYG{p}{)} \PYG{n+nf}{inc}\PYG{p}{([}\PYG{l+m+mi}{2}\PYG{p}{],} \PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{])} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Exit}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{8}\PYG{p}{)} \PYG{n+nf}{inc}\PYG{p}{([}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{],} \PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{])} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+\PYG{n+nv}{R} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{]} \PYG{p}{.}
+\end{Verbatim}

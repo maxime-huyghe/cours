@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nf}{inc}\PYG{p}{([}\PYG{l+m+mi}{2}\PYG{p}{],} \PYG{n+nv}{R}\PYG{p}{).} \PYG{n+nv}{R} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{].}
+\PYG{n+nf}{inc}\PYG{p}{([],} \PYG{n+nv}{R}\PYG{p}{).} \PYG{l+s+sAtom}{false}\PYG{p}{.}
+\PYG{n+nf}{inc}\PYG{p}{([}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{],} \PYG{n+nv}{R}\PYG{p}{).} \PYG{n+nv}{R} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{].}
+\PYG{n+nf}{inc}\PYG{p}{([}\PYG{l+m+mi}{2}\PYG{p}{],} \PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{]).} \PYG{l+s+sAtom}{true}\PYG{p}{.}
+\PYG{n+nf}{inc}\PYG{p}{([}\PYG{l+m+mi}{2}\PYG{p}{],} \PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]).} \PYG{l+s+sAtom}{false}\PYG{p}{.}
+\PYG{n+nf}{inc}\PYG{p}{([}\PYG{l+m+mi}{2}\PYG{p}{],} \PYG{p}{[}\PYG{l+m+mi}{4}\PYG{p}{]).} \PYG{l+s+sAtom}{false}\PYG{p}{.}
+\end{Verbatim}

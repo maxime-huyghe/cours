@@ -1,0 +1,23 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{p}{[}\PYG{l+s+sAtom}{trace}\PYG{p}{]}  \PYG{l+s+sAtom}{?\PYGZhy{}} \PYG{n+nf}{diff}\PYG{p}{([}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{],} \PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{],} \PYG{n+nv}{R}\PYG{p}{).}
+   \PYG{n+nv}{Call}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{)} \PYG{n+nf}{diff}\PYG{p}{([}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{],} \PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{],} \PYG{k}{\PYGZus{}}\PYG{l+m+mi}{5222}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+\PYG{l+s+sAtom}{\PYGZca{}}  \PYG{n+nv}{Call}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{11}\PYG{p}{)} \PYG{o}{not}\PYG{p}{(}\PYG{n+nf}{contains}\PYG{p}{([}\PYG{l+m+mi}{1}\PYG{p}{],} \PYG{l+m+mi}{1}\PYG{p}{))} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Call}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{12}\PYG{p}{)} \PYG{n+nf}{contains}\PYG{p}{([}\PYG{l+m+mi}{1}\PYG{p}{],} \PYG{l+m+mi}{1}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Exit}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{12}\PYG{p}{)} \PYG{n+nf}{contains}\PYG{p}{([}\PYG{l+m+mi}{1}\PYG{p}{],} \PYG{l+m+mi}{1}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+\PYG{l+s+sAtom}{\PYGZca{}}  \PYG{n+nv}{Fail}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{11}\PYG{p}{)} \PYG{o}{not}\PYG{p}{(}\PYG{n+nn}{user}\PYG{p}{:}\PYG{n+nf}{contains}\PYG{p}{([}\PYG{l+m+mi}{1}\PYG{p}{],} \PYG{l+m+mi}{1}\PYG{p}{))} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Redo}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{)} \PYG{n+nf}{diff}\PYG{p}{([}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{],} \PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{],} \PYG{k}{\PYGZus{}}\PYG{l+m+mi}{5222}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Call}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{11}\PYG{p}{)} \PYG{n+nf}{contains}\PYG{p}{([}\PYG{l+m+mi}{1}\PYG{p}{],} \PYG{l+m+mi}{1}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Exit}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{11}\PYG{p}{)} \PYG{n+nf}{contains}\PYG{p}{([}\PYG{l+m+mi}{1}\PYG{p}{],} \PYG{l+m+mi}{1}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Call}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{11}\PYG{p}{)} \PYG{n+nf}{diff}\PYG{p}{([}\PYG{l+m+mi}{2}\PYG{p}{],} \PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{],} \PYG{k}{\PYGZus{}}\PYG{l+m+mi}{5222}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+\PYG{l+s+sAtom}{\PYGZca{}}  \PYG{n+nv}{Call}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{12}\PYG{p}{)} \PYG{o}{not}\PYG{p}{(}\PYG{n+nf}{contains}\PYG{p}{([}\PYG{l+m+mi}{1}\PYG{p}{],} \PYG{l+m+mi}{2}\PYG{p}{))} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Call}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{13}\PYG{p}{)} \PYG{n+nf}{contains}\PYG{p}{([}\PYG{l+m+mi}{1}\PYG{p}{],} \PYG{l+m+mi}{2}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Call}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{14}\PYG{p}{)} \PYG{n+nf}{contains}\PYG{p}{([],} \PYG{l+m+mi}{2}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Fail}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{14}\PYG{p}{)} \PYG{n+nf}{contains}\PYG{p}{([],} \PYG{l+m+mi}{2}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Fail}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{13}\PYG{p}{)} \PYG{n+nf}{contains}\PYG{p}{([}\PYG{l+m+mi}{1}\PYG{p}{],} \PYG{l+m+mi}{2}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+\PYG{l+s+sAtom}{\PYGZca{}}  \PYG{n+nv}{Exit}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{12}\PYG{p}{)} \PYG{o}{not}\PYG{p}{(}\PYG{n+nn}{user}\PYG{p}{:}\PYG{n+nf}{contains}\PYG{p}{([}\PYG{l+m+mi}{1}\PYG{p}{],} \PYG{l+m+mi}{2}\PYG{p}{))} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Call}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{12}\PYG{p}{)} \PYG{n+nf}{diff}\PYG{p}{([],} \PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{],} \PYG{k}{\PYGZus{}}\PYG{l+m+mi}{6004}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Exit}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{12}\PYG{p}{)} \PYG{n+nf}{diff}\PYG{p}{([],} \PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{],} \PYG{p}{[])} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Exit}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{11}\PYG{p}{)} \PYG{n+nf}{diff}\PYG{p}{([}\PYG{l+m+mi}{2}\PYG{p}{],} \PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{],} \PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{])} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Exit}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{)} \PYG{n+nf}{diff}\PYG{p}{([}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{],} \PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{],} \PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{])} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+\PYG{n+nv}{R} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]} \PYG{p}{.}
+\end{Verbatim}

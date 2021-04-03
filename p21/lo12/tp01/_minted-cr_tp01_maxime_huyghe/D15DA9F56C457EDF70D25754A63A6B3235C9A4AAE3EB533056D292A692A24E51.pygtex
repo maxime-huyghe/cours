@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cm}{/*B1*/} \PYG{n+nf}{ancetre}\PYG{p}{(}\PYG{n+nv}{X}\PYG{p}{,}\PYG{n+nv}{Y}\PYG{p}{):\PYGZhy{}}\PYG{n+nf}{parent}\PYG{p}{(}\PYG{n+nv}{X}\PYG{p}{,}\PYG{n+nv}{Z}\PYG{p}{),} \PYG{n+nf}{ancetre}\PYG{p}{(}\PYG{n+nv}{Z}\PYG{p}{,}\PYG{n+nv}{Y}\PYG{p}{).}
+\PYG{c+cm}{/*B2*/} \PYG{n+nf}{ancetre}\PYG{p}{(}\PYG{n+nv}{X}\PYG{p}{,}\PYG{n+nv}{Y}\PYG{p}{):\PYGZhy{}}\PYG{n+nf}{parent}\PYG{p}{(}\PYG{n+nv}{X}\PYG{p}{,}\PYG{n+nv}{Y}\PYG{p}{).}
+\PYG{c+cm}{/*B3*/} \PYG{n+nf}{parent}\PYG{p}{(}\PYG{l+s+sAtom}{paul}\PYG{p}{,} \PYG{l+s+sAtom}{jacques}\PYG{p}{).}
+\PYG{c+cm}{/*B4*/} \PYG{n+nf}{parent}\PYG{p}{(}\PYG{l+s+sAtom}{marie}\PYG{p}{,} \PYG{l+s+sAtom}{jacques}\PYG{p}{).}
+\PYG{c+cm}{/*B5*/} \PYG{n+nf}{parent}\PYG{p}{(}\PYG{l+s+sAtom}{jacques}\PYG{p}{,} \PYG{l+s+sAtom}{lili}\PYG{p}{).}
+\PYG{c+cm}{/*B6*/} \PYG{n+nf}{parent}\PYG{p}{(}\PYG{l+s+sAtom}{martine}\PYG{p}{,} \PYG{l+s+sAtom}{lili}\PYG{p}{).}
+\end{Verbatim}

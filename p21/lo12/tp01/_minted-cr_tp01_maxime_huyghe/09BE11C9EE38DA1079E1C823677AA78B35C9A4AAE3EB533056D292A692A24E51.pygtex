@@ -1,0 +1,22 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{l+s+sAtom}{?\PYGZhy{}} \PYG{l+s+sAtom}{trace}\PYG{p}{,} \PYG{n+nf}{ancetre}\PYG{p}{(}\PYG{l+s+sAtom}{paul}\PYG{p}{,} \PYG{l+s+sAtom}{lili}\PYG{p}{).}
+   \PYG{n+nv}{Call}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{9}\PYG{p}{)} \PYG{n+nf}{ancetre}\PYG{p}{(}\PYG{l+s+sAtom}{paul}\PYG{p}{,} \PYG{l+s+sAtom}{lili}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Call}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{)} \PYG{n+nf}{parent}\PYG{p}{(}\PYG{l+s+sAtom}{paul}\PYG{p}{,} \PYG{k}{\PYGZus{}}\PYG{l+m+mi}{732}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Exit}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{)} \PYG{n+nf}{parent}\PYG{p}{(}\PYG{l+s+sAtom}{paul}\PYG{p}{,} \PYG{l+s+sAtom}{jacques}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Call}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{)} \PYG{n+nf}{ancetre}\PYG{p}{(}\PYG{l+s+sAtom}{jacques}\PYG{p}{,} \PYG{l+s+sAtom}{lili}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Call}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{11}\PYG{p}{)} \PYG{n+nf}{parent}\PYG{p}{(}\PYG{l+s+sAtom}{jacques}\PYG{p}{,} \PYG{k}{\PYGZus{}}\PYG{l+m+mi}{732}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Exit}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{11}\PYG{p}{)} \PYG{n+nf}{parent}\PYG{p}{(}\PYG{l+s+sAtom}{jacques}\PYG{p}{,} \PYG{l+s+sAtom}{lili}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Call}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{11}\PYG{p}{)} \PYG{n+nf}{ancetre}\PYG{p}{(}\PYG{l+s+sAtom}{lili}\PYG{p}{,} \PYG{l+s+sAtom}{lili}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Call}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{12}\PYG{p}{)} \PYG{n+nf}{parent}\PYG{p}{(}\PYG{l+s+sAtom}{lili}\PYG{p}{,} \PYG{k}{\PYGZus{}}\PYG{l+m+mi}{732}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Fail}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{12}\PYG{p}{)} \PYG{n+nf}{parent}\PYG{p}{(}\PYG{l+s+sAtom}{lili}\PYG{p}{,} \PYG{k}{\PYGZus{}}\PYG{l+m+mi}{732}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Redo}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{11}\PYG{p}{)} \PYG{n+nf}{ancetre}\PYG{p}{(}\PYG{l+s+sAtom}{lili}\PYG{p}{,} \PYG{l+s+sAtom}{lili}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Call}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{12}\PYG{p}{)} \PYG{n+nf}{parent}\PYG{p}{(}\PYG{l+s+sAtom}{lili}\PYG{p}{,} \PYG{l+s+sAtom}{lili}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Fail}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{12}\PYG{p}{)} \PYG{n+nf}{parent}\PYG{p}{(}\PYG{l+s+sAtom}{lili}\PYG{p}{,} \PYG{l+s+sAtom}{lili}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Fail}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{11}\PYG{p}{)} \PYG{n+nf}{ancetre}\PYG{p}{(}\PYG{l+s+sAtom}{lili}\PYG{p}{,} \PYG{l+s+sAtom}{lili}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Redo}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{)} \PYG{n+nf}{ancetre}\PYG{p}{(}\PYG{l+s+sAtom}{jacques}\PYG{p}{,} \PYG{l+s+sAtom}{lili}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Call}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{11}\PYG{p}{)} \PYG{n+nf}{parent}\PYG{p}{(}\PYG{l+s+sAtom}{jacques}\PYG{p}{,} \PYG{l+s+sAtom}{lili}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Exit}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{11}\PYG{p}{)} \PYG{n+nf}{parent}\PYG{p}{(}\PYG{l+s+sAtom}{jacques}\PYG{p}{,} \PYG{l+s+sAtom}{lili}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Exit}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{)} \PYG{n+nf}{ancetre}\PYG{p}{(}\PYG{l+s+sAtom}{jacques}\PYG{p}{,} \PYG{l+s+sAtom}{lili}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+   \PYG{n+nv}{Exit}\PYG{l+s+sAtom}{:} \PYG{p}{(}\PYG{l+m+mi}{9}\PYG{p}{)} \PYG{n+nf}{ancetre}\PYG{p}{(}\PYG{l+s+sAtom}{paul}\PYG{p}{,} \PYG{l+s+sAtom}{lili}\PYG{p}{)} \PYG{l+s+sAtom}{?} \PYG{l+s+sAtom}{creep}
+\PYG{l+s+sAtom}{true} \PYG{p}{.}
+\end{Verbatim}
